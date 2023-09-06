@@ -1,0 +1,66 @@
+/* style.css */
+
+/* Estilizando o corpo da página */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* Estilizando o cabeçalho */
+header {
+    background-color: #3a70ef;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+header h1 {
+    margin: 0;
+}
+
+/* Estilizando a navegação */
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+/* Estilizando o conteúdo principal */
+main {
+    padding: 20px;
+}
+
+main h2 {
+    font-size: 24px;
+}
+
+/* Estilizando o rodapé */
+footer {
+    background-color: #4a62ea;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+/* Estilizando links no rodapé */
+footer a {
+    color: #fff;
+    text-decoration: underline;
+}
+
+/* Estilizando o rodapé quando o mouse passa por cima do link */
+footer a:hover {
+    color: #ff0;
+}
